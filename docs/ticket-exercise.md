@@ -44,6 +44,7 @@ This was an important distinction because assigning administrative roles is itse
 5. Look at sign-in logs to investigate a suspicious login.
 
 Initial guess: Reports Reader
+
 Correct answer: Reports Reader
 
 Why: Reports Reader provides read-only access to reporting data, allowing an administrator to view sign-in and audit information without giving them unnecessary permissions to modify users, groups, or other resources.
@@ -51,7 +52,6 @@ Why: Reports Reader provides read-only access to reporting data, allowing an adm
 6. Reset the password for another administrator
 
 My initial guess: Helpdesk Administrator
-
 Correct answer: Depends on the administrator being targeted.
 
 What I got wrong: I originally treated password resets as one permission regardless of who the target was. The required role changes depending on the target's administrative privileges.
