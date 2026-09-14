@@ -51,11 +51,14 @@ Why: Reports Reader provides read-only access to reporting data, allowing an adm
 6. Reset the password for another administrator
 
 My initial guess: Helpdesk Administrator
-Correct answer: It depends on the administrator being targeted.
 
-Microsoft separates this into different levels:
+Correct answer: Depends on the administrator being targeted.
+
+What I got wrong: I originally treated password resets as one permission regardless of who the target was. The required role changes depending on the target's administrative privileges.
 
 Limited administrator: User Administrator
 Privileged administrator: Privileged Authentication Administrator
+
+This showed me that least privilege depends on both the action and the target. Resetting a privileged administrator's password is much more sensitive because it could potentially give the person performing the reset control over a highly privileged account.
 
 
