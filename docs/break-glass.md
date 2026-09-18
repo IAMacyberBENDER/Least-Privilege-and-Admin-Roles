@@ -31,7 +31,6 @@ The emergency accounts are not included in the Northwind employee or contractor 
 
                                           Authentication and Security Gaps
 
-The emergency account structure has been created, but some recommended security controls have not yet been implemented in this lab:
 
  -Phishing-resistant authentication such as FIDO2/passkeys or certificate-based authentication has not been configured.
  
