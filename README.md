@@ -15,7 +15,40 @@ Northwind Services is a small company with 16 employees across Executive, IT, Fi
 
 ## What I Built
 
-The main sections of work.
+## What I Built
+
+For this lab, I continued working with the Northwind Services Microsoft Entra ID tenant I created in Lab 1 and focused on building a least-privilege administrative structure.
+
+### Role Review and Ticket Exercise
+
+I first reviewed the available built-in Entra administrative roles to understand the different levels of administrative access and identify which roles matched the tasks Northwind needed. I then completed a six-ticket exercise where I made my own initial role selections before comparing them with Microsoft's least-privileged role recommendations. This helped me identify where my assumptions were too broad, especially around password resets, user management, and reading reports.
+
+### Administrative Role Assignments
+
+Based on the results of the ticket exercise, I assigned the **Password Administrator** role to the Help Desk Tech because they only need to reset passwords for regular employees. I assigned the **User Administrator** role to the Systems Administrator because they need to create and manage regular user accounts. I assigned the **Reports Reader** role to the IT Manager because their responsibility is to review sign-in and audit information rather than make administrative changes.
+
+The remaining Northwind employees were intentionally left without administrative roles because their job responsibilities do not require directory administration. This keeps administrative permissions limited to the employees who actually need them.
+
+### Permission Testing
+
+I tested the Help Desk Tech account in a separate browser session by performing an action it was allowed to perform and then attempting an administrative action it was not allowed to perform. The blocked action provided evidence that the permission boundary was working as intended and that the Help Desk Tech could not perform tasks outside the scope of the assigned role.
+
+### Emergency Access and Security Gaps
+
+I also created two emergency access accounts and documented the security gaps that would still need to be addressed in a production environment. This included documenting the need for stronger authentication, appropriate Conditional Access exclusions, and monitoring for emergency account activity.
+
+### Global Administrator and Privileged Role Review
+
+After completing the role assignments, I reviewed the tenant's **Global Administrator count** and **total privileged role assignments** and compared them with Microsoft's recommended limits. I started with one Global Administrator and ended with three after creating the two emergency access accounts, keeping the tenant within Microsoft's recommendation of fewer than five Global Administrators.
+
+I also reviewed the **PRIVILEGED** label on the roles I assigned to understand which assignments could affect authentication or provide a path to greater access and which role was limited to read-only visibility. I performed these checks to make sure the Northwind tenant stayed within Microsoft's recommended best practices for both Global Administrator assignments and the use of privileged roles.
+
+### Audit and Documentation
+
+Finally, I reviewed the Entra audit logs to verify that the administrative role assignments were recorded. I captured screenshots showing the role assignments, blocked action, privileged role information, and audit trail. I documented the role decisions, ticket exercise, testing results, emergency access accounts, audit evidence, and least-privilege reasoning in the project documentation.
+
+The result is a working Entra ID role structure that demonstrates how administrative access can be intentionally limited, tested, and monitored instead of giving users broad permissions simply because they need to perform one administrative task.
+
 
 ## Screenshots
 
