@@ -50,7 +50,7 @@ Finally, I reviewed the Entra audit logs to verify that the administrative role 
 The result is a working Entra ID role structure that demonstrates how administrative access can be intentionally limited, tested, and monitored instead of giving users broad permissions simply because they need to perform one administrative task.
 
 
-### Screenshots
+## Screenshot
 
 I signed in as the Help Desk Technician and successfully
 reset a regular user's password. I then attempted to create
