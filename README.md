@@ -26,7 +26,7 @@ account did not have the required permissions. This
 confirmed that the assigned role allows password-reset
 support without granting broader user-management access.
 
-The screenshot shows a blocked action and demonstrates that least privilege is working as intended. <img width="1169" height="1603" alt="IMG_5347" src="https://github.com/user-attachments/assets/0d1ba59c-a8ae-45a9-8354-485f98575186" />
+The screenshot shows a blocked action and demonstrates that least privilege is working as intended.
 
 ## Security Lessons Learned
 
