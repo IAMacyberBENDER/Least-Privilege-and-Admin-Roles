@@ -14,3 +14,9 @@ I assigned the User Administrator role to the Systems Administrator because thei
                                             IT Manager — Reports Reader
 
 The IT Manager needs to review sign-in logs, audit information, and reports so they can monitor activity in the environment and investigate potential issues. The Reports Reader role provides read-only visibility into this information without giving the IT Manager the ability to make administrative changes. This supports the principle of least privilege because the manager needs visibility for oversight, not the ability to directly manage users, groups, or security settings. A broader administrative role would provide more access than necessary because the IT Manager's responsibility in this lab is primarily monitoring, reviewing, and investigating activity.
+
+
+                                       Roles Assigned to the Remaining Employees
+The remaining Northwind employees are not assigned Entra ID administrative roles because their job responsibilities do not require them to manage the identity environment. They can still access the applications, files, and other resources they need to perform their jobs through normal user access and group-based permissions.
+
+Administrative roles are limited to employees who need to perform specific administrative tasks, such as managing users, groups, passwords, or reports. Keeping regular employees without administrative roles follows the principle of least privilege by giving them only the access they need to do their jobs and avoiding unnecessary administrative permissions.
