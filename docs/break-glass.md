@@ -29,7 +29,7 @@ The emergency accounts are not included in the Northwind employee or contractor 
 
 
 
-                                          Authentication and Security Gaps
+                                       Gaps list 
 
 
  -Phishing-resistant authentication such as FIDO2/passkeys or certificate-based authentication has not been configured.
