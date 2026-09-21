@@ -61,6 +61,11 @@ support without granting broader user-management access.
 
 The screenshot shows a blocked action and demonstrates that least privilege is working as intended.
 
+
+
+This screenshot shows that the selected administrative role was successfully assigned to a Northwind team member. The assignment reflects the least-privilege approach used in this step, giving the user the permissions needed to perform their responsibilities without assigning a broader role than necessary.
+
+
 ## Security Lessons Learned
 
 In this lab, I learned that least privilege is not about distrusting the people who use the system. It is about limiting what can happen if an account is compromised. Every account is a possible entry point, so I focused on giving each Northwind administrator only the permissions needed for their job.
