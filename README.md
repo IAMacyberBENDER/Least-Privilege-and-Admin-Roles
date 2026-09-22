@@ -51,7 +51,7 @@ The result is a working Entra ID role structure that demonstrates how administra
 
 
 ## Screenshot
-The screenshot shows a blocked action and demonstrates that least privilege is working as intended.
+-The screenshot shows a blocked action and demonstrates that least privilege is working as intended.
 
 I signed in as the Help Desk Technician and successfully
 reset a regular user's password. I then attempted to create
@@ -65,7 +65,7 @@ support without granting broader user-management access.
 
 
 
-Screenshot of the privileged role assignments after completing the project.
+-Screenshot of the privileged role assignments after completing the project.
 
 
 This screenshot shows five privileged role assignments in the tenant. Four of these assignments were created as part of the Northwind project, while one was the default Global Administrator assignment created when the tenant was initially set up and was not part of the project.
