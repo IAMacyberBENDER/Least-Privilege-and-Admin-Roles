@@ -62,6 +62,13 @@ support without granting broader user-management access.
 The screenshot shows a blocked action and demonstrates that least privilege is working as intended.
 
 
+Screenshot of the privileged role assignments after completing the project.
+
+
+This screenshot shows five privileged role assignments in the tenant. Four of these assignments were created as part of the Northwind project, while one was the default Global Administrator assignment created when the tenant was initially set up and was not part of the project.
+
+Microsoft recommends maintaining two or more emergency access accounts for emergency or “break-glass” scenarios. The tenant also remains below Microsoft’s recommendation of fewer than 10 privileged role assignments
+
 
 This screenshot shows that the selected administrative role was successfully assigned to a Northwind team member. The assignment reflects the least-privilege approach used in this step, giving the user the permissions needed to perform their responsibilities without assigning a broader role than necessary.
 
