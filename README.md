@@ -38,9 +38,9 @@ I also created two emergency access accounts and documented the security gaps th
 
                                Global Administrator and Privileged Role Review
 
-After completing the role assignments, I reviewed the tenant's **Global Administrator count** and **total privileged role assignments** and compared them with Microsoft's recommended limits. I started with one Global Administrator and ended with three after creating the two emergency access accounts, keeping the tenant within Microsoft's recommendation of fewer than five Global Administrators.
+After completing the role assignments, I reviewed the tenant's Global Administrator count and total privileged role assignments and compared them with Microsoft's recommended limits. I started with one Global Administrator and ended with three after creating the two emergency access accounts, keeping the tenant within Microsoft's recommendation of fewer than five Global Administrators.
 
-I also reviewed the **PRIVILEGED** label on the roles I assigned to understand which assignments could affect authentication or provide a path to greater access and which role was limited to read-only visibility. I performed these checks to make sure the Northwind tenant stayed within Microsoft's recommended best practices for both Global Administrator assignments and the use of privileged roles.
+I also reviewed the PRIVILEGED label on the roles I assigned to understand which assignments could affect authentication or provide a path to greater access and which role was limited to read-only visibility. I performed these checks to make sure the Northwind tenant stayed within Microsoft's recommended best practices for both Global Administrator assignments and the use of privileged roles.
 
 
                                         Audit and Documentation
@@ -51,7 +51,7 @@ The result is a working Entra ID role structure that demonstrates how administra
 
 
 ## Screenshot
--The screenshot shows a blocked action and demonstrates that least privilege is working as intended.
+***The screenshot shows a blocked action and demonstrates that least privilege is working as intended.**
 
 I signed in as the Help Desk Technician and successfully
 reset a regular user's password. I then attempted to create
@@ -63,6 +63,7 @@ support without granting broader user-management access.
 
 
 
+  [![One block action](screenshots/one blocked action.jpg)](screenshots/one blocked action.jpg)     screenshots/one blocked action.jpg
 
 
 -Screenshot of the privileged role assignments after completing the project.
