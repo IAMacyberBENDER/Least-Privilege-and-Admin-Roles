@@ -60,7 +60,7 @@ account did not have the required permissions. This
 confirmed that the assigned role allows password-reset
 support without granting broader user-management access.
 
-[View blocked action screenshot](screenshots/one-blocked-action.jpg)
+                                                                                             [View blocked action screenshot](screenshots/one-blocked-action.jpg)
 
 
 
