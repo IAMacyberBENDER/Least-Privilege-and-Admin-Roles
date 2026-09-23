@@ -67,7 +67,7 @@ support without granting broader user-management access.
   
 
 
-**Screenshot of the privileged role assignments after completing the project.**
+**Screenshot of the role list with the privilege label visible .**
 
 
 This screenshot shows five privileged role assignments in the tenant. Four of these assignments were created as part of the Northwind project, while one was the default Global Administrator assignment created when the tenant was initially set up and was not part of the project.
@@ -89,7 +89,7 @@ This screenshot shows the Help Desk Tech being assigned the Password Administrat
 
 ## Security Lessons Learned
 
-In this lab, I learned that least privilege is not about distrusting the people who use the system. It is about limiting what can happen if an account is compromised. Every account is a possible entry point, so I focused on giving each Northwind administrator only the permissions needed for their job.
+In this Project, I learned that least privilege is not about distrusting the people who use the system. It is about limiting what can happen if an account is compromised. Every account is a possible entry point, so I focused on giving each Northwind administrator only the permissions needed for their job.
 
 For example, the Help Desk Tech does not need a broad administrative role just to reset a regular employee's password. Giving them a narrower role limits the potential impact if that account is compromised. In contrast, assigning Global Administrator would provide far more access than the Help Desk Tech needs and would create much greater risk if the account were phished.
 
