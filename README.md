@@ -63,7 +63,7 @@ support without granting broader user-management access.
 
 
 
-  [![One block action](screenshots/one blocked action.jpg)](screenshots/one blocked action.jpg)
+  [![One block action](screenshots/one-blocked-action.jpg)](screenshots/one-blocked-action.jpg)
 
 
 -Screenshot of the privileged role assignments after completing the project.
