@@ -75,7 +75,7 @@ This screenshot shows five privileged role assignments in the tenant. Four of th
 Microsoft recommends maintaining two or more emergency access accounts for emergency or “break-glass” scenarios. The tenant also remains below Microsoft’s recommendation of fewer than 10 privileged role assignments
 
 
-This screenshot shows that the selected administrative role was successfully assigned to a Northwind team member. The assignment reflects the least-privilege approach used in this step, giving the user the permissions needed to perform their responsibilities without assigning a broader role than necessary.
+**[View Roles list with the PRIVILEGED label visible](screenshots/Roles-list-with-the-PRIVILEGED-label-visible.jpeg)**
 
 
 
