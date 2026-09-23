@@ -67,7 +67,7 @@ support without granting broader user-management access.
   
 
 
-**Screenshot of the role list with the privilege label visible .**
+***Screenshot of the role list with the privilege label visible .***
 
 
 This screenshot shows five privileged role assignments in the tenant. Four of these assignments were created as part of the Northwind project, while one was the default Global Administrator assignment created when the tenant was initially set up and was not part of the project.
