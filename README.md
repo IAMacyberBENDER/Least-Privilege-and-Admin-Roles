@@ -60,13 +60,14 @@ account did not have the required permissions. This
 confirmed that the assigned role allows password-reset
 support without granting broader user-management access.
 
+[View blocked action screenshot](screenshots/one-blocked-action.jpg)
 
 
-   [View blocked action screenshot](screenshots/one-blocked-action.jpg)
+
   
 
 
--Screenshot of the privileged role assignments after completing the project.
+**Screenshot of the privileged role assignments after completing the project.**
 
 
 This screenshot shows five privileged role assignments in the tenant. Four of these assignments were created as part of the Northwind project, while one was the default Global Administrator assignment created when the tenant was initially set up and was not part of the project.
@@ -76,9 +77,14 @@ Microsoft recommends maintaining two or more emergency access accounts for emerg
 
 This screenshot shows that the selected administrative role was successfully assigned to a Northwind team member. The assignment reflects the least-privilege approach used in this step, giving the user the permissions needed to perform their responsibilities without assigning a broader role than necessary.
 
-Screenshot of a complete role assignment for the Help Desk Tech.
 
-This screenshot shows the Help Desk Tech being assigned the Password Administrator role. The Help Desk Tech’s responsibility is to reset passwords for regular staff, so I assigned the narrowest administrative role that provides the permissions needed to perform that task. This demonstrates the principle of least privilege by giving the account only the access required for its responsibilities.
+
+
+
+**Screenshot of a complete role administrative assignment**
+
+This screenshot shows the Help Desk Tech being assigned the Password Administrator role. The Help Desk Tech’s responsibility is to reset passwords for regular staff, so I assigned the narrowest administrative role that provides the permissions needed to perform that task. This demonstrates the principle of least privilege by giving the account only the access required for its responsibilities without assigning a broader role than necessary.
+
 
 
 ## Security Lessons Learned
