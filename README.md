@@ -51,7 +51,7 @@ The result is a working Entra ID role structure that demonstrates how administra
 
 
 ## Screenshot
-***The screenshot shows a blocked action and demonstrates that least privilege is working as intended.**
+**The screenshot shows a blocked action and demonstrates that least privilege is working as intended.**
 
 I signed in as the Help Desk Technician and successfully
 reset a regular user's password. I then attempted to create
@@ -60,7 +60,7 @@ account did not have the required permissions. This
 confirmed that the assigned role allows password-reset
 support without granting broader user-management access.
 
-                                                         [View blocked action screenshot](screenshots/one-blocked-action.jpg)
+**[View blocked action screenshot](screenshots/one-blocked-action.jpg)**
 
 
 
