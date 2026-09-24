@@ -22,7 +22,12 @@ The remaining Northwind employees are not assigned Entra ID administrative roles
 Administrative roles are limited to employees who need to perform specific administrative tasks, such as managing users, groups, passwords, or reports. Keeping regular employees without administrative roles follows the principle of least privilege by giving them only the access they need to do their jobs and avoiding unnecessary administrative permissions.
 
 
+                           Why Twelve Employees Have No Admin Role
 
-                             The one thing from the ticket exercise that most surprised me
+The remaining 12 Northwind employees were not assigned Microsoft Entra administrative roles because their normal job responsibilities do not require them to manage the directory. They still receive the access they need to perform their jobs through normal user accounts, groups, and resource permissions. Administrative roles are reserved for employees whose responsibilities require directory-level administrative actions. This follows the principle of least privilege by avoiding unnecessary elevated permissions and reducing the number of accounts that can make administrative changes to the tenant.
+
+
+                The one thing from the ticket exercise that most surprised me
+                             
 The thing that surprised me most was that the role needed to reset a password depends on who the target user is.         At first, I thought resetting any user's password would require the same role. I learned that resetting a regular employee's password can be handled with the Password Administrator role, while resetting the password of an administrator may require a more privileged role. This showed me that least privilege depends not only on the task being performed, but also on the target of that task.
 
