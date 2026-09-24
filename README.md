@@ -86,6 +86,11 @@ Microsoft recommends maintaining two or more emergency access accounts for emerg
 This screenshot shows the Help Desk Tech being assigned the Password Administrator role. The Help Desk Tech’s responsibility is to reset passwords for regular staff, so I assigned the narrowest administrative role that provides the permissions needed to perform that task. This demonstrates the principle of least privilege by giving the account only the access required for its responsibilities without assigning a broader role than necessary.
 
 
+**[View Complete role assignment](screenshots/Screenshot-of-one-complete-role-assignment.jpeg)**
+
+
+
+
 
 ## Security Lessons Learned
 
