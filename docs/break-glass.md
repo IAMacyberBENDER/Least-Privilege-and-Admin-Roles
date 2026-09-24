@@ -14,11 +14,11 @@ These accounts are intended for emergency tenant recovery if normal administrati
 
 Privileged Account Count
 
-Before creating the emergency accounts, the tenant had one Global Administrator account.
+Before creating the emergency accounts, the tenant had one Global Administrator account. (This account is not part of project)
 
 After creating the two emergency accounts, the tenant has three Global Administrator accounts:
 
-My administrative account
+My administrative account (Is not part of project, created by default) 
 
 Emergency Access 1
 
