@@ -27,7 +27,7 @@ The remaining Northwind employees are not assigned Entra ID administrative roles
 Administrative roles are limited to employees who need to perform specific administrative tasks, such as managing users, groups, passwords, or reports. Keeping regular employees without administrative roles follows the principle of least privilege by giving them only the access they need to do their jobs and avoiding unnecessary administrative permissions.
 
 
-***Why Twelve Employees Have No Admin Role***
+#***Why Twelve Employees Have No Admin Role***
 
 The remaining 12 Northwind employees were not assigned Microsoft Entra administrative roles because their normal job responsibilities do not require them to manage the directory. They still receive the access they need to perform their jobs through normal user accounts, groups, and resource permissions. Administrative roles are reserved for employees whose responsibilities require directory-level administrative actions. This follows the principle of least privilege by avoiding unnecessary elevated permissions and reducing the number of accounts that can make administrative changes to the tenant.
 
