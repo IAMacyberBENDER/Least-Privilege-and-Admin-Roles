@@ -21,6 +21,7 @@ The IT Manager needs to review sign-in logs, audit information, and reports so t
 
 
  ***Roles Assigned to the Remaining Employees***
+ 
 The remaining Northwind employees are not assigned Entra ID administrative roles because their job responsibilities do not require them to manage the identity environment. They can still access the applications, files, and other resources they need to perform their jobs through normal user access and group-based permissions.
 
 Administrative roles are limited to employees who need to perform specific administrative tasks, such as managing users, groups, passwords, or reports. Keeping regular employees without administrative roles follows the principle of least privilege by giving them only the access they need to do their jobs and avoiding unnecessary administrative permissions.
