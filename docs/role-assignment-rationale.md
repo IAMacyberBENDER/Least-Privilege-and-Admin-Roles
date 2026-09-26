@@ -43,7 +43,9 @@ The thing that surprised me most was that the role needed to reset a password de
 ***Of the three Northwind administrative assignments, two carry the PRIVILEGED label:***
 
 1-Help Desk Tech → Password Administrator: PRIVILEGED
+
 2-Systems Administrator → User Administrator: PRIVILEGED
+
 3-IT Manager → Reports Reader: Not labeled PRIVILEGED
 
 Microsoft identifies privileged roles in the Entra admin center with the PRIVILEGED label. The label indicates that the role contains permissions that can potentially lead to privilege elevation, which is why these assignments require additional attention when applying least privilege.
