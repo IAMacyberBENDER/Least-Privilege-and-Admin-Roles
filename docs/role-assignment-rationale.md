@@ -36,3 +36,16 @@ The remaining 12 Northwind employees were not assigned Microsoft Entra administr
                              
 The thing that surprised me most was that the role needed to reset a password depends on who the target user is.         At first, I thought resetting any user's password would require the same role. I learned that resetting a regular employee's password can be handled with the Password Administrator role, while resetting the password of an administrator may require a more privileged role. This showed me that least privilege depends not only on the task being performed, but also on the target of that task.
 
+
+
+## Which of your three assignments carry the PRIVILEGED label, and why
+
+***Of the three Northwind administrative assignments, two carry the PRIVILEGED label:***
+
+1-Help Desk Tech → Password Administrator: PRIVILEGED
+2-Systems Administrator → User Administrator: PRIVILEGED
+3-IT Manager → Reports Reader: Not labeled PRIVILEGED
+
+Microsoft identifies privileged roles in the Entra admin center with the PRIVILEGED label. The label indicates that the role contains permissions that can potentially lead to privilege elevation, which is why these assignments require additional attention when applying least privilege.
+
+The important point is that I did not choose the roles simply because they were available. Each assignment was based on the employee's actual responsibility, using the narrowest role that provided the permissions required for the job.
