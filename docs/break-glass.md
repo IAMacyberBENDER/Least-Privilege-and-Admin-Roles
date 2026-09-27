@@ -24,9 +24,9 @@
  
  - The emergency accounts have not been connected to my personal phone or Authenticator account.
  
- -Conditional Access policies for emergency access accounts have not yet been configured.
+ - Conditional Access policies for emergency access accounts have not yet been configured.
  
- -Automated monitoring and alerting for emergency-account sign-ins has not yet been implemented.
+ - Automated monitoring and alerting for emergency-account sign-ins has not yet been implemented.
  
- -A formal process for securely storing and accessing the emergency credentials has not yet been implemented.
+ - A formal process for securely storing and accessing the emergency credentials has not yet been implemented.
 
