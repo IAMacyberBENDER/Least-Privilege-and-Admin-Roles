@@ -10,31 +10,19 @@
 
 - Both accounts are cloud-only and have the Global Administrator role assigned permanently. Neither account is named after or tied to an individual employee.
 
--These accounts are intended for emergency tenant recovery if normal administrative access becomes unavailable.
+- These accounts are intended for emergency tenant recovery if normal administrative access becomes unavailable.
 
-***Privileged Account Count***
-
-Before creating the emergency accounts, the tenant had one Global Administrator account. (This account is not part of project)
-
-After creating the two emergency accounts, the tenant has three Global Administrator accounts:
-
-My administrative account (Is not part of project, created by default) 
-
-Emergency Access 1
-
-Emergency Access 2
-
-The emergency accounts are not included in the Northwind employee or contractor headcount because they exist only for tenant recovery.
+- The emergency accounts are not included in the Northwind employee or contractor headcount because they exist only for tenant recovery.
 
 
 
 
-                                       Gaps list 
+   ***Gaps list***
 
 
- -Phishing-resistant authentication such as FIDO2/passkeys or certificate-based authentication has not been configured.
+ - Phishing-resistant authentication such as FIDO2/passkeys or certificate-based authentication has not been configured.
  
- -The emergency accounts have not been connected to my personal phone or Authenticator account.
+ - The emergency accounts have not been connected to my personal phone or Authenticator account.
  
  -Conditional Access policies for emergency access accounts have not yet been configured.
  
