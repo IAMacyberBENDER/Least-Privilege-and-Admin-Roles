@@ -12,6 +12,10 @@ Northwind Services is a small company with 16 employees across Executive, IT, Fi
 ## Tools Used
 
 - Microsoft Entra ID
+- Northwind tenant
+- Microsoft Authenticator app, MFA
+- GitHub
+
 
 ## What I Built
 
