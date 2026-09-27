@@ -19,7 +19,7 @@ Northwind Services is a small company with 16 employees across Executive, IT, Fi
 
 ## What I Built
 
-For this project I continued working with the Northwind Services Microsoft Entra ID tenant I created in part 1 and focused on building a least-privilege administrative structure.
+For this project I continued working with the Northwind Services Microsoft Entra ID tenant I created in lab 1 and focused on building a least-privilege administrative structure.
 
                                   Role Review and Ticket Exercise
 
