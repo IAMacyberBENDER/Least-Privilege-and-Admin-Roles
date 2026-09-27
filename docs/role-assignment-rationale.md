@@ -79,9 +79,9 @@ Microsoft guidance: fewer than 10
   
 
 
-- Global Administrators:I started with 1 and added 2 emergency/break-glass accounts, bringing the total to 3. This remains below Microsoft's guidance of keeping the number of Global Administrators below 5.
+- Global Administrators: I started with 1 and added 2 emergency/break-glass accounts, bringing the total to 3. This remains below Microsoft's guidance of keeping the number of Global Administrators below 5.
 
-- Privileged role assignments:I started with 1 existing privileged assignment and ended with 5. The final count includes the existing default Global Administrator assignment plus your project assignments and emergency accounts. This remains below Microsoft's guidance of fewer than 10 privileged role assignments.
+- Privileged role assignments: I started with 1 existing privileged assignment and ended with 5. The final count includes the existing default Global Administrator assignment plus your project assignments and emergency accounts. This remains below Microsoft's guidance of fewer than 10 privileged role assignments.
 The default Global Administrator assignment was not part of your project; it was already present when the tenant was created.
 
 - One important distinction: Global Administrator count and privileged role assignment count are different measurements. A tenant can have 3 Global Administrators but 5 total privileged role assignments because other privileged roles can also count toward the second number.
