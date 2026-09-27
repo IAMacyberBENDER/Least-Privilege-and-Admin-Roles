@@ -8,11 +8,11 @@
 
    2-EmergencyAccess2@IAMChris.onmicrosoft.com
 
-Both accounts are cloud-only and have the Global Administrator role assigned permanently. Neither account is named after or tied to an individual employee.
+- Both accounts are cloud-only and have the Global Administrator role assigned permanently. Neither account is named after or tied to an individual employee.
 
-These accounts are intended for emergency tenant recovery if normal administrative access becomes unavailable.
+-These accounts are intended for emergency tenant recovery if normal administrative access becomes unavailable.
 
-Privileged Account Count
+***Privileged Account Count***
 
 Before creating the emergency accounts, the tenant had one Global Administrator account. (This account is not part of project)
 
