@@ -51,3 +51,35 @@ The thing that surprised me most was that the role needed to reset a password de
 Microsoft identifies privileged roles in the Entra admin center with the PRIVILEGED label. The label indicates that the role contains permissions that can potentially lead to privilege elevation, which is why these assignments require additional attention when applying least privilege.
 
 The important point is that I did not choose the roles simply because they were available. Each assignment was based on the employee's actual responsibility, using the narrowest role that provided the permissions required for the job.
+
+
+
+# Global Administrator and Privileged Role Counts: Before, After, and Microsoft Thresholds 
+
+ ***Global Administrators***
+	Before: 1
+  
+  After: 3
+
+  Microsoft guidance: fewer than 5 
+
+- The 1 before is the default Global Administrator assignment that existed when the tenant was created. 
+
+  
+***Privileged role assignments***
+   Before: 1
+   
+   After:  5
+
+   Microsoft guidance: fewer than 10 
+   
+- The 1 before is the default Global Administrator assignment that existed when the tenant was created.
+  
+
+
+Global Administrators:I started with 1 and added 2 emergency/break-glass accounts, bringing the total to 3. This remains below Microsoft's guidance of keeping the number of Global Administrators below 5.
+
+Privileged role assignments:I started with 1 existing privileged assignment and ended with 5. The final count includes the existing default Global Administrator assignment plus your project assignments and emergency accounts. This remains below Microsoft's guidance of fewer than 10 privileged role assignments.
+The default Global Administrator assignment was not part of your project; it was already present when the tenant was created.
+
+One important distinction: Global Administrator count and privileged role assignment count are different measurements. A tenant can have 3 Global Administrators but 5 total privileged role assignments because other privileged roles can also count toward the second number.
