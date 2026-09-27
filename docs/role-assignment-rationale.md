@@ -57,21 +57,23 @@
 # Global Administrator and Privileged Role Counts: Before, After, and Microsoft Thresholds 
 
  ***Global Administrators***
-	Before : 1
+ 
+Before : 1
   
-    After : 3
+After : 3
 
-  Microsoft guidance: fewer than 5 
+Microsoft guidance: fewer than 5 
 
 - The 1 before is the default Global Administrator assignment that existed when the tenant was created. 
 
   
 ***Privileged role assignments***
-   Before : 1
-   
-   After :  5
 
-   Microsoft guidance: fewer than 10 
+Before : 1
+   
+After :  5
+
+Microsoft guidance: fewer than 10 
    
 - The 1 before is the default Global Administrator assignment that existed when the tenant was created.
   
