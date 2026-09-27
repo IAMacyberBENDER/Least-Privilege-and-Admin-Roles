@@ -1,12 +1,12 @@
-Break-Glass Emergency Access Accounts
+# Break-Glass Emergency Access Accounts
 
                                   What I Built
 
-I created two dedicated emergency access accounts for the Northwind Services Entra ID tenant:
+- I created two dedicated emergency access accounts for the Northwind Services Entra ID tenant:
 
-  -EmergencyAccess1@IAMChris.onmicrosoft.com
+   1-EmergencyAccess1@IAMChris.onmicrosoft.com
 
-  -EmergencyAccess2@IAMChris.onmicrosoft.com
+   2-EmergencyAccess2@IAMChris.onmicrosoft.com
 
 Both accounts are cloud-only and have the Global Administrator role assigned permanently. Neither account is named after or tied to an individual employee.
 
