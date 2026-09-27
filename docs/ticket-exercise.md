@@ -14,9 +14,9 @@ Before checking Microsoft's documentation, I made my best guess for the smallest
 
 ***1. Reset the password for a salesperson who is locked out***
 
- -My initial guess: Helpdesk Administrator
+ - My initial guess: Helpdesk Administrator
 
- -Correct answer: Password Administrator
+ - Correct answer: Password Administrator
 
 What I got wrong: I assumed Helpdesk Administrator because this sounds like a normal help desk password-reset task. However, Microsoft lists Password Administrator as the least privileged role for resetting the password of a non-administrator. Helpdesk Administrator can also reset passwords for non-administrators, but it is not the least-privileged answer for this specific task.
 
