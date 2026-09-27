@@ -48,9 +48,9 @@
 
    3- IT Manager → Reports Reader: Not labeled PRIVILEGED
 
- Microsoft identifies privileged roles in the Entra admin center with the PRIVILEGED label. The label indicates that the role contains permissions that can potentially lead to privilege elevation, which is why these assignments require additional attention when applying least privilege.
+- Microsoft identifies privileged roles in the Entra admin center with the PRIVILEGED label. The label indicates that the role contains permissions that can potentially lead to privilege elevation, which is why these assignments require additional attention when applying least privilege.
 
- The important point is that I did not choose the roles simply because they were available. Each assignment was based on the employee's actual responsibility, using the narrowest role that provided the permissions required for the job.
+- The important point is that I did not choose the roles simply because they were available. Each assignment was based on the employee's actual responsibility, using the narrowest role that provided the permissions required for the job.
 
 
 
