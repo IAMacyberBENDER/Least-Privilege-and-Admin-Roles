@@ -57,9 +57,9 @@
 # Global Administrator and Privileged Role Counts: Before, After, and Microsoft Thresholds 
 
  ***Global Administrators***
-	Before: 1
+	Before : 1
   
-  After: 3
+    After : 3
 
   Microsoft guidance: fewer than 5 
 
@@ -67,9 +67,9 @@
 
   
 ***Privileged role assignments***
-   Before: 1
+   Before : 1
    
-   After:  5
+   After :  5
 
    Microsoft guidance: fewer than 10 
    
