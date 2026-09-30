@@ -93,6 +93,19 @@ This screenshot shows the Help Desk Tech being assigned the Password Administrat
 **[View Complete role assignment](screenshots/Screenshot-of-one-complete-role-assignment.jpeg)**
 
 
+**Screenshot of audit log entries showing role assignment**
+
+This screenshot shows Microsoft Entra audit log entries confirming that the role assignments were successfully completed. The audit logs provide evidence that the assigned administrative roles were applied to the intended users and recorded successfully in the tenant.
+
+
+
+**[View Roles list with the PRIVILEGED label visible](screenshots/Audit-log-entries-showing-role-assigment.jpeg)**
+
+
+
+
+
+
 
 
 
